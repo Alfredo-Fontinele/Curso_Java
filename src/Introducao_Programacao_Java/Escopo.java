@@ -12,7 +12,7 @@ public class Escopo {
         String nome = scanner.nextLine();
 
         System.out.println("Digite sua idade: ");
-        String idade = scanner.nextLine();
+        int idade = scanner.nextInt();
 
         System.out.println("\nDados do Usuario\n\n\t-Nome Informado: " + nome + "\n\t-Idade Informada: " + idade + " anos");
 
