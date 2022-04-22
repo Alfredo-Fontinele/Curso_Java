@@ -5,10 +5,14 @@ public class Input {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite seu Nome: ");
-        String name = scanner.nextLine();
 
-        System.out.println("\nOla " + name + ". Seja bem-vindo ao Intellij Idea Java\n");
+        System.out.println("Digite seu Nome: ");
+        String nome = scanner.nextLine();
+
+        System.out.println("\nDigite sua idade: ");
+        int idade = scanner.nextInt();
+
+        System.out.println("\n\t- Nome Informado:" + nome + "\n\t- Idade Informada: " + idade + " anos\n");
     }
 
 }
