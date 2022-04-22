@@ -1,4 +1,4 @@
-package Introduacao_Programacao_Java;
+package Introducao_Programacao_Java;
 public class Funcoes {
 
     public static void main(String[] args) {
