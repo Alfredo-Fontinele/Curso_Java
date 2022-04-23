@@ -1,4 +1,4 @@
-package Programacao_Orientada_a_Objetos;
+package POO_Parte1_Propriedades_Objetos;
 
 public class User {
 
@@ -9,7 +9,7 @@ public class User {
     public String password;
 
     public String getFullName() {
-        fullName = firstName + ' ' + lastName;
+        fullName = this.firstName + ' ' + this.lastName;
         return fullName;
     }
 

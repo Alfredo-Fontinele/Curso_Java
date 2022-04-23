@@ -1,6 +1,6 @@
 package Testes_Java;
 
-public class UpperCase_com_Trimp {
+public class UpperCase_com_Trim {
 
     public static void main(String[] args) {
 
