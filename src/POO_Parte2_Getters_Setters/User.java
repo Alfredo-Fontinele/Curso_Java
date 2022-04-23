@@ -1,7 +1,5 @@
 package POO_Parte2_Getters_Setters;
 
-import java.util.Locale;
-
 public class User {
 
     private String firstName;
