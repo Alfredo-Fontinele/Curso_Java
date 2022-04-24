@@ -1,7 +1,5 @@
 package Curso_Java_Thiago_Aguiar.Arrays.POO_Parte3_Construtor;
-
 public class App {
-
     public static void main(String[] args) {
 
         User[] users = new User[] {

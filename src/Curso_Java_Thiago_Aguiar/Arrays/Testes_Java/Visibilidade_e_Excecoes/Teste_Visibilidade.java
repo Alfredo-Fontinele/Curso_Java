@@ -1,4 +1,4 @@
-package Curso_Java_Thiago_Aguiar.Arrays.Testes_Java;
+package Curso_Java_Thiago_Aguiar.Arrays.Testes_Java.Visibilidade_e_Excecoes;
 import Curso_Java_Thiago_Aguiar.Arrays.Introducao_Programacao_Java.Visibilidade;
 
 public class Teste_Visibilidade {
