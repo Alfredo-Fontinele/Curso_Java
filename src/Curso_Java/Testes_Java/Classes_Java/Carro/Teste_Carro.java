@@ -1,4 +1,4 @@
-package Curso_Java.Testes_Java.Classes_Java;
+package Curso_Java.Testes_Java.Classes_Java.Carro;
 
 public class Teste_Carro {
 
