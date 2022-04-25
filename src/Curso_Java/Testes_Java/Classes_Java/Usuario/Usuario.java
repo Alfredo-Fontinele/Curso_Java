@@ -20,7 +20,7 @@ public class Usuario {
         this.nome = nome.toUpperCase().trim();
         this.idade = idade;
         this.rg = rg;
-        this.cpf = formatCPF(cpf);
+        this.cpf = cpf;
     }
 
     public void setAllInformations() {
@@ -38,7 +38,6 @@ public class Usuario {
 
             System.out.println("\nDigite seu CPF:");
             String cpf = input.nextLine();
-            formatCPF(cpf);
 
             this.nome = nome;
             this.idade = idade;
@@ -50,15 +49,6 @@ public class Usuario {
         catch (Exception error) {
             System.out.println("\nErro(s) Encontrado(s) => " + error.getMessage() + "\n");
         }
-    }
-
-    public String formatCPF(String cpf) {
-        Pattern pattern = Pattern.compile("(/d{3})(/d{3})(/d{3})(/d{2})");
-        Matcher matcher = pattern.matcher(cpf);
-        if (matcher.matches()) {
-            cpf = matcher.replaceAll("$1.$2.$3-$4");
-        }
-        return cpf;
     }
 
     public void getAllInformations () {
