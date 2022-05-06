@@ -3,9 +3,9 @@ public class App {
     public static void main(String[] args) {
 
         User[] users = new User[] {
-                new User("Alfredo", "Neto"),
-                new User("Amanda", "Fontinele"),
-                new User("Monia", "Silva")
+                new User("Teste1", "Teste1.1"),
+                new User("Teste2", "Teste2.1"),
+                new User("Teste3", "Teste3.1")
         };
 
         for (var i = 0; i < users.length; i++) {

@@ -6,8 +6,8 @@ public class App {
 
         User userA = new User();
 
-        userA.firstName = "Alfredo";
-        userA.lastName = "Neto";
+        userA.firstName = "Lucas";
+        userA.lastName = "Teste";
         userA.password = "12345678";
 
         String fullName_userA = userA.getFullName();
